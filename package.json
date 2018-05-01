@@ -4,13 +4,18 @@
   "description": "Blog API challenge for Thinkful Node curriculum",
   "main": "server.js",
   "scripts": {
-    "start": "node server.js"
+    "start": "node server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "express": "^4.16.3",
+    "morgan": "^1.9.0",
     "uuid": "^3.2.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/mee213/blog-api"
   }
 }
