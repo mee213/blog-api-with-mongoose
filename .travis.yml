@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: tK5fmoXFkXM1G/VAtZ+CXGXb0Ggfk37jupzm+02Rlobtwq04eIJtmo/ioEIYWGgN2r6BLj+3t30FAqo14ZsE4BZ3IVGyXeyfATBUmGHIAZQTPLynW+a+o7NkszHoMkAe++XqJErXCyxYcpKkboJcWxHNbjiuO5cwlVriv+m0IuPYgCwfbXn6Vd5hPYPDL20BiPaO/NyxbOrSHIwcq01ojK6ktpe4wuWOZRXVzOhh7GWFaw0SGD8nV1NhCqoSkr528er3fAjDqULAsWghTEdlhIxkF9uoP+yu1rLxDpAo8YjPTVGJm0XPmWv2VzagttYd3qzIU+01dlHE615ln3e+jITdE7Rhk5Re9WbzRA/LCxnGoga4i/yNQeKL91MoZQxLMcvMPNpDC+7M62gES4nPPwJ78BH2xxrGvJ0Qv7T++OPzDxZaRl4+hHLUMxpKHE5D0kQamMhWGisAcsGyILPRB1LT9byZU7kAj842Q3ZZqA9YXfn4IAyZZaH70xcPidkvUQkNjidtgk8zm1tPerJ4KpxCBdvG+EyIpCuWk755UUhVHsfY2dadHYyLidY1ZPDpx80Z8Sqc25u3YzQzfiEHn2r9bCpN/GvOBV/dqD7GYOhu5ecEE8XUliA4vrtYk9qECFY58ckHvdYx/0XnZ4FwtPSnn3rtWMJiQecrWswUaeI=
+  app: floating-basin-61087
+  on:
+    repo: mee213/blog-api
