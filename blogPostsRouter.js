@@ -22,6 +22,7 @@ BlogPosts.create(
 // send back JSON representation of all blog posts
 // on GET requests to root
 router.get('/', (req, res) => {
+  console.log(`Getting all blog posts`);
   res.json(BlogPosts.get());
 });
 
@@ -41,13 +42,15 @@ router.post('/', jsonParser, (req, res) => {
     }
   }
   const item = BlogPosts.create(req.body.title, req.body.content, req.body.author, req.body.publishDate);
+  console.log(`Created blog post \`${item.id}\``);
   res.status(201).json(item);
 });
 
 // Delete recipes (by id)!
 router.delete('/:id', (req, res) => {
+  let deletedID = req.params.id;
   BlogPosts.delete(req.params.id);
-  console.log(`Deleted blog post \`${req.params.ID}\``);
+  console.log(`Deleted blog post \`${deletedID}\``);
   res.status(204).end();
 });
 
