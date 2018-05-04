@@ -1,7 +1,7 @@
 {
-  "name": "blog-api",
+  "name": "blog-api-with-mongoose",
   "version": "1.0.0",
-  "description": "Blog API challenge for Thinkful Node curriculum",
+  "description": "Challenge: Add Mongoose to Blogging App for Thinkful curriculum",
   "main": "server.js",
   "scripts": {
     "start": "node server.js",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/mee213/blog-api"
+    "url": "https://github.com/mee213/blog-api-with-mongoose"
   },
   "devDependencies": {
     "chai": "^4.1.2",
