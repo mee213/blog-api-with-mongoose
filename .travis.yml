@@ -1,2 +1,9 @@
 language: node_js
 node_js: node
+deploy:
+  provider: heroku
+  api_key:
+    secure: OFXjxW2zea1qVDrk1XWk9cZbPSKHNWDBsEsT8Tx2GN+DYSIqw2bjUY1VlAjg3VHFKOtXdyGGXDfsd/SnRvSBGCo5SVsM7iKZL5TiS+MOwogWgBYLJ90rVfXRghbDd/Oz6T3Zoyea1Wx5BuUdUjPrbtLxosaGMFQB6mRozzZFunotr1qGICZjtp0aBEZiD1D1PoCi5+uTmkcECeM7Z4jnL5x6bEgxMx2j1OFXrtxYPxDhHXBbZNBOpWEDIlP3xoR3LjvmkjyPOtGkda0tBcuNTa+PkB0fOUXqa/4WzeH/tCQvRYz/x3zngNg6kMUDCegDR/C8+nFzzVvcMUqN8cGStS6FCCWtidNlV4gCRFUXgxkw+J9BUJ5R9ogXw/6JLJNV8jNuI1+4YG6FdPF0LZuV4STvorwERu0K5A2rRJI6DrmreIwK8vodd+c+GexaSLRs61G2LURrxRhZ3uR+NSHa9ZOOe+kmcSNNyVtdZlF9v/dfUjdp6aTS828VLiqB7RyhVATNIz6CEISF9TI+9WV8zOSzhYOBeTKO7vt+H8DIcUVuCpx6JHjPr/2rXdpHqNcaDgQa+aZaSDqO3Ur1jBTU08WtSbR9Dr32UH95IOkNr0RDPAlaiB+mJoSTVQTgIazz4X/d5xiKTxVAlfjfSFQxcKeTwNVRfJFrrIoM6Rim0xY=
+  app: gentle-ridge-28626
+  on:
+    repo: mee213/blog-api-with-mongoose
